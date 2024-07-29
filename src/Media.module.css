@@ -1,0 +1,60 @@
+
+.dice {
+    font-size: 70px;
+}
+.btn {
+    width: 220px;
+}
+
+
+@media(max-width: 400px) {
+    .dice{
+       
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .start{
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    .btn {
+        width: 120px;
+        margin-top: 10px;
+        
+    }
+
+    .img {
+        width: 350px;
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .score {
+        font-size: 60px !important;
+    }
+
+    .total {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    
+    .class1 {
+        width: 150px !important;
+    }
+
+    .class2 {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
